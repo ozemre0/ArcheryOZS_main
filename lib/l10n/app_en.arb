@@ -1,0 +1,634 @@
+{
+    "appName": "Archery OZS",
+    
+    "@_LOGIN_SCREEN": {},
+    "loginTitle": "Login",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "loginButton": "Login",
+    "forgotPassword": "Forgot Password",
+    "noAccount": "Don't have an account?",
+    "register": "Register",
+    
+    "@_PROFILE": {},
+    "editProfile": "Edit Profile",
+    "setupProfile":"Profile Setup",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "birthDate": "Birth Date",
+    "role": "Role",
+    "athlete": "Athlete",
+    "coach": "Coach",
+    "viewer": "Viewer",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "genderLabel": "Gender:",
+    "photoSelectError": "Error selecting photo",
+    "birthDateRequired": "Please select your birth date",
+    "profileUpdated": "Profile updated",
+    "firstNameRequired": "First name required",
+    "lastNameRequired": "Last name required",
+    "dateNotSelected": "Not selected",
+    "userIdCopied": "User ID copied",
+    "phoneNumberCopied": "Phone number copied",
+    "invalidPhoneNumber": "Please enter a valid phone number",
+    "roleLabel": "Role:",
+    "profilePicture": "Profile Picture",
+    "signOut": "Sign Out",
+    "signOutConfirm": "Are you sure you want to sign out?",
+    "loadingProfile": "Loading profile...",
+    "myProfile": "My Profile",
+    "address": "Address (Optional)",
+    "phoneNumber": "Phone Number (Optional)",
+    "contactInfo": "Contact Information",
+    "emailLabel": "Email",
+    "updateProfileOffline": "Please update your profile when you have internet connection",
+    "@updateProfileOffline": {
+        "description": "Message shown when trying to edit profile while offline"
+    },
+    "profileUpdateError": "Profile could not be updated. Please check your internet connection",
+    "@profileUpdateError": {
+        "description": "Error message shown when trying to update profile without internet"
+    },
+
+    "@_NAVIGATION": {},
+    "homeTab": "Home",
+    "profileTab": "Profile",
+    "trainingTab": "Training",
+
+    "@_HOME": {},
+    "competitionRecords": "Competition Records",
+    "competitionRecordsDesc": "View and manage your competitions.",
+    "indoorLabel": "Indoor",
+    "outdoorLabel": "Outdoor",
+    "scoreLabel": "Score",
+    "welcomeText": "Welcome",
+    "trainingOnlyAthlete": "Training features are only available for athlete accounts.",
+    
+    "@_COACH_ATHLETE": {},
+    "myCoaches": "My Coaches",
+    "myAthletes": "My Athletes",
+    "noCoachesYet": "You don't have any coaches yet",
+    "noAthletesYet": "You don't have any athletes yet",
+    "coachLabel": "Coach",
+    "athleteLabel": "Athlete",
+    "noContactInfo": "Athlete has not entered contact information yet.",
+    "manageAthletesDesc": "View and manage your athletes",
+    "age": "Age",
+    "yearsOld": "years old",
+    "filterAthletes": "Filter Athletes",
+    "filterGender": "Gender",
+    "filterAge": "Age Group",
+    "filterAll": "All",
+    "athleteCompetitionHistoryTitle": "{athleteName}'s Competition History",
+    "@athleteCompetitionHistoryTitle": {
+      "description": "Title for athlete competition history screen.",
+      "placeholders": {"athleteName": {"type": "String", "example": "John Doe"}}
+    },
+    "errorLoadingCompetitions": "Error loading competition history.",
+    "@errorLoadingCompetitions": {"description": "Shown when competition history fails to load."},
+    "noCompetitionHistory": "No competition history found.",
+    "@noCompetitionHistory": {"description": "Shown when athlete has no competition history."},
+    "competitionHistory": "Competition History",
+    "@competitionHistory": {"description": "Menu item for viewing athlete's competition history from coach menu."},
+    "dateLabel": "Date:",
+    "@dateLabel": {"description": "Label for competition date."},
+    "filterMale": "Male",
+    "filterFemale": "Female",
+    "age13to14": "13-14 Years",
+    "age15to17": "15-17 Years", 
+    "age18to20": "18-20 Years",
+    "age20plus": "20+ Years",
+    "webSyncOnlySupabase": "On web, only Supabase is used for competition records.",
+    "syncAddedToLocal": "Competition added to local database.",
+    "syncAddedToSupabase": "Competition added to Supabase.",
+    "syncUpdatedSupabase": "Competition updated in Supabase.",
+    "syncUpdatedLocal": "Competition updated in local database.",
+    "syncCompleted": "Competition records synchronization completed.",
+    "clearFilters": "Clear Filters",
+    "applyFilters": "Apply Filters",
+    "searchAthletes": "Search athletes by name",
+    "filteredCount": "Filtered: {count} athletes",
+    "@filteredCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "personalInfo": "Personal Information",
+    "options": "Options",
+    "competitionHistory": "Competition History",
+    "statistics": "Statistics",
+    "filterOptions": "Filter Options",
+    "unnamedCompetition": "Unnamed Competition",
+    "meterLabel": "m",
+    "rankingResult": "Qualification",
+    "@rankingResult": {"description": "Label for ranking result in competition card."},
+    "eliminationResult": "Final",
+    "@eliminationResult": {"description": "Label for elimination result in competition card."},
+    "@meterLabel": {"description": "Abbreviation for meters, used in competition distance display."},
+    "removeConnection": "Remove Connection",
+    "confirmRemoveConnection": "Are you sure you want to remove {firstName} {lastName}?",
+    "@confirmRemoveConnection": {
+        "placeholders": {
+            "firstName": {
+                "type": "String"
+            },
+            "lastName": {
+                "type": "String"
+            }
+        }
+    },
+    "remove": "Remove",
+    "clear": "Clear",
+    "addAthlete": "Add Athlete",
+    "addCoach": "Add Coach",
+    "athleteId": "Athlete ID",
+    "athleteProfileId": "Athlete Profile ID",
+    "athleteProfileIdHelper": "Please enter the profile ID of the athlete (e.g. ay1, mc2)",
+    "athleteProfileIdRequired": "Profile ID required",
+    "athleteNotFound": "Athlete with this profile ID not found.",
+    "coachId": "Coach ID",
+    "coachProfileId": "Coach Profile ID",
+    "coachProfileIdHelper": "Please enter the profile ID of the coach (e.g. ak1, bt2)",
+    "coachProfileIdRequired": "Profile ID required",
+    "coachNotFound": "Coach with this profile ID not found.",
+    "profileId": "Profile ID",
+  "profileIdCopied": "Profile ID copied to clipboard!",
+    "athleteIdRequired": "Athlete ID required",
+    "coachIdRequired": "Coach ID required",
+    "athleteIdHelper": "Please enter the ID of a user with athlete role",
+    "coachIdHelper": "Enter the coach ID provided to you by your coach",
+    "onlyCoachesCanAddAthletes": "Only coaches can add athletes",
+    "onlyAthletesCanAddCoaches": "Only athletes can add coaches",
+    "cannotAddSelf": "You cannot add yourself as an athlete. Please enter a valid athlete ID",
+    "athleteAddedSuccess": "Athlete added successfully",
+    "coachAddedSuccess": "Coach added successfully",
+    "athleteRequestSent": "Athlete request sent.",
+    "confirmAddAthleteTitle": "Confirm Add Athlete",
+    "confirmAddAthleteMessage": "Are you sure you want to add this athlete?",
+    "add": "Add",
+
+    "@_COMMON": {},
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "imageNotAvailable": "Image not available",
+    "error": "Error: {error}",
+    "@error": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "edit": "Edit",
+    "delete": "Delete",
+    
+    "@_TRAINING_SYSTEM": {},
+    "trainingSystem": "Create Training",
+    "trainingHistory": "Training Records",
+    "trainingSystemDesc": "Record your training scores and track your progress.",
+    "trainingHistoryDesc": "View and analyze your training sessions.",
+    "trainingConfiguration": "Training Configuration",
+    "trainingParameters": "Training Parameters",
+    "trainingParametersSetup": "Configure training parameters to start a new training session",
+    "startTraining": "START TRAINING",
+    "trainingConfigDescription": "Set up training parameters to start a new training session",
+    "configureTrainingParameters": "Training Parameters",
+    "configTrainingDesc": "Set up training parameters to start a new training session",
+    "trainingDescription": "Set up training parameters to start a new training session",
+    "trainingName": "Training Name",
+    "trainingNameHint": "Give a custom name for your training",
+    "notes": "Notes",
+    "trainingType": "Training Type",
+    "trainingEnvironment": "Training Environment",
+    "indoor": "Indoor",
+    "outdoor": "Outdoor",
+    "bowType": "Bow Type",
+    "distance": "Distance (meters)",
+    "arrowsPerSeries": "Arrows Per Series",
+    "seriesCount": "Series Count",
+    "roundCount": "Round Count",
+    "arrows": "arrows",
+    "series": "series",
+    "rounds": "rounds",
+    "meters": "m",
+    
+    "targetFace": "Target Face",
+    "selectTargetFace": "Select Target Face",
+    "targetFace80cm": "80cm FITA (6 Rings + X)",
+    "targetFace122cm": "122cm FITA (10 Rings + X)",
+    "targetFaceRequired": "Target face selection is required for score training",
+    "tapTargetToScore": "Tap on target face to enter score",
+    "targetFaceScoring": "Target Face Scoring",
+    "tapToEnterScore": "Tap to enter score",
+    "arrowHole": "Arrow Hole",
+    "closeTargetView": "Close",
+    "arrowCount": "Arrow {current}/{total}",
+    "seriesComplete": "Series Complete",
+    "nextSeries": "Next Series",
+    "finishTraining": "Finish Training",
+    "continueTraining": "Continue",
+    
+    "training": "Training",
+    "currentSeries": "Current Series",
+    "total": "Total",
+    "noSeriesYet": "No series recorded yet",
+    "seriesCompleteMessage": "You've completed {count} arrows for this series. Press \"Complete Series\" to move to the next series.",
+    "@seriesCompleteMessage": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "undoLast": "Undo",
+    "reset": "Reset",
+    "completeSeries": "Complete Series",
+    "seriesNumber": "Series {number}",
+    "@seriesNumber": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "trainingSessionInfo": "After creating series, you can edit past series by tapping on the series cards.",
+    "@trainingSessionInfo": {"description": "Info message shown to user when there are no series in the training session screen."},
+
+    "@_TRAINING_HISTORY": {},
+    "trainingStatistics": "Training Statistics",
+    "average": "Average",
+    "totalArrows": "Total Arrows",
+    "totalSessions": "Sessions",
+    "bestTraining": "Best Training:",
+    "deleteTraining": "Delete Training",
+    "deleteTrainingConfirm": "Are you sure you want to delete this training session? This action cannot be undone.",
+    "trainingDeleted": "Training session successfully deleted.",
+    "userNotFound": "User session not found. Please login again.",
+    "filter": "Filter: {filterName}",
+    "@filter": {
+        "placeholders": {
+            "filterName": {
+                "type": "String"
+            }
+        }
+    },
+    "allTrainings": "All Trainings",
+    "indoorOnly": "Indoor",
+    "outdoorOnly": "Outdoor",
+    "dateRange": "By Date Range",
+    "noTrainingsYet": "No training sessions recorded yet",
+    "arrowsAndSeries": "{arrowCount} arrows, {seriesCount} series",
+    "@arrowsAndSeries": {
+        "placeholders": {
+            "arrowCount": {
+                "type": "int"
+            },
+            "seriesCount": {
+                "type": "int"
+            }
+        }
+    },
+    "averageScore": "Avg: {score}",
+    "@averageScore": {
+        "placeholders": {
+            "score": {
+                "type": "String"
+            }
+        }
+    },
+    "performanceGraph": "Performance Graph",
+    "lastTrainings": "Last {count} trainings",
+    "@lastTrainings": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "bestArrow": "Best Arrow",
+    "bestSeries": "Best Series",
+    
+    "@_TRAINING_DETAILS": {},
+    "trainingDetails": "Training Details",
+    "date": "Date:",
+    "bowTypeLabel": "Bow Type:",
+    "distanceLabel": "Distance:",
+    "environment": "Environment:",
+    "indoorEnv": "Indoor",
+    "outdoorEnv": "Outdoor",
+    "totalArrowsLabel": "Total Arrows:",
+    "totalScoreLabel": "Total Score:",
+    "averageLabel": "Average",
+    "series": "Series",
+    "seriesNumber": "Series {number}",
+    "arrowsLabel": "Arrows:",
+    "totalLabel": "Total:",
+    "noTrainingOnDate": "No training found on this date.",
+    "noTrainingInRange": "No training found in selected date range.",
+    "clearDateFilter": "Clear Date Filter",
+    "filterByDate": "Filter by Date",
+    "debug": "Debug",
+    "refresh": "Refresh",
+
+    "@_ATHLETE_STATISTICS": {},
+    "athleteStatistics": "Athlete Statistics",
+    "overallPerformance": "Overall Performance",
+    "recentProgress": "Recent Progress",
+    "trainingFrequency": "Training Frequency",
+    "scoreDistribution": "Score Distribution",
+    "highestScore": "Highest Score",
+    "lowestScore": "Lowest Score",
+    "averagePerformance": "Average Performance",
+    "totalTrainingHours": "Total Training Hours",
+    "weeklyTrainingHours": "Weekly Training Hours",
+    "monthlyTrainingHours": "Monthly Training Hours",
+    "consistencyIndex": "Consistency Index",
+    "performanceByDistance": "Performance by Distance",
+    "performanceByEnvironment": "Performance by Environment",
+    "improvementRate": "Improvement Rate",
+    "weeklyAverage": "Weekly Average",
+    "monthlyAverage": "Monthly Average",
+    "compareToLastMonth": "Compare to Last Month",
+    "compareToLastWeek": "Compare to Last Week",
+    "noStatisticsAvailable": "No statistics available for this athlete yet",
+    "noSeriesData": "No series data available",
+    
+    "@_STATISTICS_FILTERS": {},
+    "filters": "Filters",
+    "clearFilters": "Clear Filters",
+    "allEnvironments": "All Environments",
+    "allTime": "All Time",
+    "lastDay": "Last Day",
+    "lastWeek": "Last Week",
+    "lastTwoWeeks": "Last Two Weeks",
+    "customDateRange": "Custom Date Range",
+    "changeDateRange": "Change Date Range",
+    "dateRange": "Date Range",
+    "activeFilters": "Active Filters",
+    "noActiveFilters": "No Active Filters",
+
+    "@_TRAINING_SCREEN": {},
+    "trainingEnvironmentTitle": "Training - {environment}",
+    "@trainingEnvironmentTitle": {
+        "placeholders": {
+            "environment": {
+                "type": "String"
+            }
+        }
+    },
+    "distanceLabel": "Distance: {distance}",
+    "@distanceLabel": {
+        "placeholders": {
+            "distance": {
+                "type": "String"
+            }
+        }
+    },
+    "bowTypeInfo": "Bow type: {type}",
+    "@bowTypeInfo": {
+        "placeholders": {
+            "type": {
+                "type": "String"
+            }
+        }
+    },
+    "seriesCount": "Series {current}/{total}",
+    "@seriesCount": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "totalScore": "Total: {score}",
+    "@totalScore": {
+        "placeholders": {
+            "score": {
+                "type": "int"
+            }
+        }
+    },
+    "currentSeries": "Current Series ({current}/{total})",
+    "@currentSeries": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "totalSeriesScore": "Total: {score}",
+    "@totalSeriesScore": {
+        "placeholders": {
+            "score": {
+                "type": "int"
+            }
+        }
+    },
+    "undoButton": "Undo",
+    "resetButton": "Reset",
+    "completeSeriesButton": "Complete Series",
+    "warning": "Warning",
+    "trainingNotSavedMessage": "Training not saved. Do you want to save?",
+    "exitWithoutSaving": "Exit Without Saving",
+    "cancelButton": "Cancel",
+    "saveButton": "Save",
+    "trainingSavedMessage": "Training saved.",
+    "finishTrainingTitle": "Finish Training",
+    "finishTrainingTotalScore": "Total Score",
+    "finishTrainingTotalArrows": "Total Arrows",
+    "finishTrainingAveragePerArrow": "Average",
+    "finishTrainingContinue": "Continue Training",
+    "finishTrainingSaveAndFinish": "Save and Finish",
+    "tapForOptions": "Tap for options",
+    "@tapForOptions": {
+      "description": "Tooltip for the icon on athlete card, indicating user should tap for options."
+    },
+    "createCompetitionTitle": "Create New Competition",
+    "competitionNameLabel": "Competition Name",
+    "competitionDescriptionLabel": "Description",
+    "competitionDateLabel": "Date",
+    "competitionDateHint": "DD/MM/YYYY",
+    "competitionAgeGroupsLabel": "Age Groups",
+    "competitionDistancesLabel": "Distances",
+    "competitionVenueLabel": "Venue",
+    "competitionVenueIndoor": "Indoor",
+    "competitionVenueOutdoor": "Outdoor",
+    "competitionCustomDistance": "Custom Distance (meters)",
+    "competitionSaveButton": "Save",
+    "competitionAgeGroup1": "Ages 9-10",
+    "competitionAgeGroup2": "Ages 11-12",
+    "competitionAgeGroup3": "Ages 13-14",
+    "competitionAgeGroup4": "U18 (15-16-17)",
+    "competitionAgeGroup5": "U21 (18-19-20)",
+    "competitionAgeGroup6": "Seniors",
+    "competitionDistance18": "18 m",
+    "competitionDistance20": "20 m",
+    "competitionDistance30": "30 m",
+    "competitionDistance50": "50 m",
+    "competitionDistance60": "60 m",
+    "competitionDistance70": "70 m",
+    "competitionDistanceCustom": "Custom",
+    "myCompetitionsTitle": "My Competitions",
+    "myCompetitionsDesc": "Competitions you have participated in are listed here.",
+    "eliminationQuestion": "Will there be elimination?",
+    "eliminationYes": "Yes",
+    "eliminationNo": "No",
+    "registrationDatesLabel": "Registration Dates",
+    "registrationStartLabel": "Start",
+    "registrationEndLabel": "End",
+    "timerTitle": "Timer",
+    "prepTime": "Preparation Time (sec)",
+    "prepTimeHint": "Enter preparation time",
+    "seriesTime": "Series Time (sec)",
+    "seriesTimeHint": "Enter series time",
+    "start": "Start",
+    "reset": "Reset",
+    "timerReady": "Timer ready",
+    "prepPhase": "Preparation Phase",
+    "seriesPhase": "Series Phase",
+    "warningPhase": "Warning Phase",
+    "finished": "Finished",
+    "touchToStart": "Touch to start",
+    
+    "@_SETTINGS_SCREEN": {},
+    "settings": "Settings",
+    "languageSettings": "Language Settings",
+    "themeSettings": "Theme Settings",
+    "timerSettings": "Timer Settings",
+    "lightTheme": "Light Theme",
+    "darkTheme": "Dark Theme",
+    "keepAboveLockscreen": "Keep above lockscreen",
+    "shootingTime": "Shooting Time",
+    "warningTime": "Warning Time",
+    "seconds": "seconds",
+    "sound": "Sound",
+    "vibrate": "Vibrate",
+    "testTimer": "Test Timer",
+    "competitionOptionsTitle": "Competition Options",
+    "deleteCompetitionTitle": "Delete Competition",
+    "deleteCompetitionConfirm": "Are you sure you want to delete this competition record?",
+    "otherLabel": "Other",
+    "cancelButtonLabel": "Cancel",
+    "okButtonLabel": "OK",
+    "editButtonLabel": "Edit",
+    "deleteButtonLabel": "Delete",
+    "saveButtonLabel": "Save",
+    "errorPrefix": "Error: ",
+    "noDateAvailable": "No Date",
+    "unnamedCompetitionPlaceholder": "unnamed competition",
+    "addCompetitionTitle": "Add Competition",
+    "editCompetitionTitle": "Edit Competition",
+    "competitionNameOptionalLabel": "Competition Name",
+    "ageGroupLabel": "Age Group",
+    "ageGroupsNotFound": "Age groups not found.",
+    "competitionDateLabel": "Competition Date",
+    "environmentLabel": "Environment",
+    "distanceInMetersLabel": "Distance (meters)",
+    "customDistancePrefix": "Custom distance: ",
+    "customDistanceDialogTitle": "Enter Custom Distance",
+    "distanceInMetersHint": "Distance (m)",
+    "bowTypeRecurve": "Recurve",
+    "bowTypeCompound": "Compound",
+    "bowTypeBarebow": "Barebow",
+    "selectBowTypeValidation": "Please select a bow type",
+    "maxScoreLabel": "Maximum Score",
+    "customMaxScorePrefix": "Custom maximum score: ",
+    "customMaxScoreDialogTitle": "Enter Custom Maximum Score",
+    "maxScoreHint": "Maximum score",
+    "qualificationRankLabel": "Qualification Rank",
+    "finalRankLabel": "Final Rank",
+    "otherCustomFinalRankLabel": "Other (Custom Final Rank)",
+    "saveCompetitionButton": "Save Competition",
+    "saveChangesButtonLabel": "Save Changes",
+    "enterTotalScoreValidation": "Please enter total score",
+    "enterValidNumberValidation": "Please enter a valid number",
+    "totalScoreExceedsMaxValidation": "Total score cannot exceed maximum score!",
+    "userSessionNotFound": "User session not found.",
+    "competitionUpdatedLocallyOffline": "Competition updated locally while offline.",
+    "competitionUpdateSuccess": "Competition updated successfully.",
+    "confirmExitTitle": "Exit without saving changes?",
+    "confirmExitMessage": "Your changes will not be saved.",
+    "exitButtonLabel": "Exit",
+    "addCompetitionFAB": "Add Competition",
+    "competitionSyncSuccess": "Competitions synced successfully.",
+    "competitionUserNotFound": "User not found.",
+    "deleteIdNull": "ID for deletion not found.",
+    "deleteFailedLocal": "Local delete failed.",
+    "competitionDeleted": "Competition deleted.",
+    "deleteFailedGeneral": "Delete failed: {error}",
+    "@deleteFailedGeneral": { "description": "General delete failure message with an error placeholder.", "placeholders": { "error": { "type": "String", "example": "Network issue" } } },
+    "deleteCompetitionRecordTitle": "Delete Competition Record",
+    "confirmDeleteCompetitionRecordMessage": "Are you sure you want to delete this competition record?",
+    "deleteCompetitionsTitle": "Delete Competitions",
+    "confirmDeleteSelectedCompetitionsMessage": "Are you sure you want to delete {count} competition records?",
+    "@confirmDeleteSelectedCompetitionsMessage": { "description": "Confirmation for deleting multiple competitions.", "placeholders": { "count": { "type": "int", "example": "5" } } },
+    "selectedCompetitionsDeleted": "{count} competitions deleted.",
+    "@selectedCompetitionsDeleted": { "description": "Notification after deleting multiple competitions.", "placeholders": { "count": { "type": "int", "example": "5" } } },
+    "competitionGenericError": "An error occurred.",
+    "noCompetitionsForFilter": "No competition records match the filter.",
+    "scorePrefix": "Score: ",
+    "rankPrefix": "Qualification: ",
+    "eliminationPrefix": "Final: ",
+    "ageGroupDisplayPrefix": "Age Group: ",
+    "competitionNameRequired": "Competition name is required",
+    "notificationsTitle": "Notifications",
+    "noNotifications": "No notifications.",
+    "unknownUser": "Unknown user",
+    "pendingRequestDetail": "You have a pending connection request.",
+    "reject": "Reject",
+    "accept": "Accept",
+    "technique": "Technique",
+    "about": "About",
+    "aboutDescription": "ArcheryOZS is a modern archery training and competition management app for athletes and coaches.",
+    "developer": "Developed by OZS Team",
+    "version": "Version: {version}",
+    "@version": {"description": "App version string for About section.", "placeholders": {"version": {"type": "String", "example": "1.0.0"}}},
+    "trainingDateTime": "Training Date & Time",
+    "trainingDateTimeHint": "Select the date and time for your training",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "updateRequired": "Update Required",
+    "pleaseUpdateApp": "A new version of the app is available. Please update to continue.",
+    "updateNow": "Update Now",
+    "currentVersion": "Current version: {version}",
+    "minimumRequiredVersion": "Minimum required version: {version}",
+    "emailVerificationRequiredTitle": "Email Verification Required",
+    "emailVerificationRequiredContent": "Your registration was successful! Please verify your account by clicking the verification link sent to your email address. Check your inbox. You can log in after completing the verification process.",
+    "emailVerificationRequiredOk": "OK",
+    "emailVerificationLoginContent": "Please verify your account by clicking the verification link sent to your email address. You cannot log in without verification.",
+    "passwordSettings": "Password Settings",
+    "setPassword": "Set/Change Password",
+    "setPasswordTitle": "Set or Change Password",
+    "setPasswordNew": "New Password",
+    "setPasswordConfirm": "Confirm Password",
+    "setPasswordSave": "Save Password",
+    "setPasswordSuccess": "Password updated successfully!",
+    "setPasswordError": "Failed to update password. Please try again.",
+    "setPasswordMismatch": "Passwords do not match!",
+    "confirmPasswordChangeTitle": "Confirm Password Change",
+    "confirmPasswordChangeContent": "Are you sure you want to change your password?",
+    "verificationEmailSent": "A verification email has been sent to your email address.",
+    "trainingSessionName": "Training Session Name",
+    "scoreTraining": "Score Training",
+    "targetFaceScoreTraining": "Target Face Score Training",
+    "techniqueTraining": "Technique Training",
+    "hasTeamDegreeLabel": "Team result available?",
+    "selectTeamDegreeYes": "Yes",
+    "selectTeamDegreeNo": "No",
+    "teamTypeLabel": "Team Type",
+    "selectTeamTypeValidation": "Please select a team type.",
+    "teamTypesNotFound": "No team types found.",
+    "teamResultLabel": "Team Result",
+    "@teamResultLabel": {"description": "Label for team result picker in add competition screen."}
+}

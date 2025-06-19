@@ -1,0 +1,644 @@
+{
+    "appName": "Archery OZS",
+    
+    "@_LOGIN_SCREEN": {},
+    "loginTitle": "Giriş",
+    "emailLabel": "E-posta",
+    "passwordLabel": "Şifre",
+    "loginButton": "Giriş Yap",
+    "forgotPassword": "Şifremi Unuttum",
+    "noAccount": "Hesabınız yok mu?",
+    "register": "Kayıt Ol",
+    
+    "@_PROFILE": {},
+    "editProfile": "Profili Düzenle",
+    "setupProfile":"Profil Oluştur",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "birthDate": "Doğum Tarihi",
+    "role": "Rol",
+    "athlete": "Sporcu",
+    "coach": "Antrenör",
+    "viewer": "İzleyici",
+    "photoSelectError": "Fotoğraf seçilirken bir hata oluştu",
+    "birthDateRequired": "Lütfen doğum tarihinizi seçin",
+    "profileUpdated": "Profil güncellendi",
+    "firstNameRequired": "Ad gerekli",
+    "lastNameRequired": "Soyad gerekli",
+    "dateNotSelected": "Seçilmedi",
+    "userIdCopied": "Kullanıcı ID kopyalandı",
+    "phoneNumberCopied": "Telefon numarası kopyalandı",
+    "invalidPhoneNumber": "Lütfen geçerli bir telefon numarası girin",
+    "roleLabel": "Rol:",
+    "profilePicture": "Profil Fotoğrafı",
+    "signOut": "Çıkış Yap",
+    "loadingProfile": "Profil yükleniyor...",
+    "myProfile": "Profilim",
+    "address": "Adres (Opsiyonel)",
+    "phoneNumber": "Telefon Numarası (Opsiyonel)",
+    "contactInfo": "İletişim Bilgileri",
+    "emailLabel": "E-posta",
+    "gender": "Cinsiyet",
+    "male": "Erkek",
+    "athleteCompetitionHistoryTitle": "{athleteName} - Yarışma Geçmişi",
+    "@athleteCompetitionHistoryTitle": {
+      "description": "Sporcunun yarışma geçmişi ekranı başlığı.",
+      "placeholders": {"athleteName": {"type": "String", "example": "Ahmet Yılmaz"}}
+    },
+    "errorLoadingCompetitions": "Yarışma geçmişi yüklenirken hata oluştu.",
+    "@errorLoadingCompetitions": {"description": "Yarışma geçmişi yüklenemezse gösterilen mesaj."},
+    "noCompetitionHistory": "Yarışma geçmişi bulunamadı.",
+    "@noCompetitionHistory": {"description": "Sporcunun yarışma geçmişi yoksa gösterilen mesaj."},
+    "dateLabel": "Tarih:",
+    "@dateLabel": {"description": "Yarışma tarihi etiketi."},
+    "female": "Kadın",
+    "genderLabel": "Cinsiyet:",
+    "updateProfileOffline": "Lütfen internet bağlantınız olduğunda profilinizi güncelleyin",
+    "@updateProfileOffline": {
+        "description": "İnternet bağlantısı yokken profil düzenleme denemesinde gösterilen mesaj"
+    },
+    "profileUpdateError": "Profil güncellenemedi. Lütfen internet bağlantınızı kontrol edin",
+    "@profileUpdateError": {
+        "description": "İnternet bağlantısı olmadan profil güncellemeye çalışırken gösterilen hata mesajı"
+    },
+
+    "@_NAVIGATION": {},
+    "homeTab": "Ana Sayfa",
+    "profileTab": "Profil",
+    "trainingTab": "Antrenman",
+
+    "@_HOME": {},
+    "competitionRecords": "Yarışma Kayıtları",
+    "competitionRecordsDesc": "Yarışmalarınızı görüntüleyin ve yönetin.",
+    "indoorLabel": "Salon",
+    "outdoorLabel": "Açık Hava",
+    "scoreLabel": "Skor",
+    "welcomeText": "Hoş Geldiniz",
+    "trainingOnlyAthlete": "Antrenman özellikleri sadece sporcu hesapları için kullanılabilir.",
+    
+    "@_COACH_ATHLETE": {},
+    "myCoaches": "Antrenörlerim",
+    "myAthletes": "Sporcularım",
+    "noCoachesYet": "Henüz bir antrenörünüz yok",
+    "noAthletesYet": "Henüz bir sporcunuz yok",
+    "coachLabel": "Antrenör",
+    "athleteLabel": "Sporcu",
+    "noContactInfo": "Sporcu henüz iletişim bilgilerini girmemiş.",
+    "manageAthletesDesc": "Yönettiğiniz sporcuları görüntüleyin",
+    "age": "Yaş",
+    "yearsOld": "yaşında",
+    "filterAthletes": "Sporcu Filtreleri",
+    "filterGender": "Cinsiyet",
+    "filterAge": "Yaş Grubu",
+    "filterAll": "Hepsi",
+    "filterMale": "Erkek",
+    "filterFemale": "Kadın",
+    "age13to14": "13-14 Yaş",
+    "age15to17": "15-17 Yaş",
+    "age18to20": "18-20 Yaş",
+    "age20plus": "20+ Yaş",
+    "webSyncOnlySupabase": "Web'de sadece Supabase üzerinden yarışma kayıtları kullanılır.",
+    "syncAddedToLocal": "Yarışma kaydı cihaza eklendi.",
+    "syncAddedToSupabase": "Yarışma kaydı Supabase'e eklendi.",
+    "syncUpdatedSupabase": "Yarışma kaydı Supabase'de güncellendi.",
+    "syncUpdatedLocal": "Yarışma kaydı cihazda güncellendi.",
+    "syncCompleted": "Yarışma kayıtlarının senkronizasyonu tamamlandı.",
+    "clearFilters": "Filtreleri Temizle",
+    "applyFilters": "Filtreleri Uygula",
+    "searchAthletes": "İsme göre sporcu ara",
+    "filteredCount": "Filtrelendi: {count} sporcu",
+    "@filteredCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "personalInfo": "Kişisel Bilgiler",
+    "options": "İşlemler",
+    "competitionHistory": "Yarışma Geçmişi",
+    "allLabel": "Tümü",
+    "@allLabel": {"description": "Yarışma geçmişi filtrelerinde 'tümü' için etiket."},
+    "indoorLabel": "Salon",
+    "@indoorLabel": {"description": "Yarışma geçmişi filtrelerinde 'salon' için etiket."},
+    "outdoorLabel": "Açık Alan",
+    "@outdoorLabel": {"description": "Yarışma geçmişi filtrelerinde 'açık alan' için etiket."},
+    "noDateLabel": "Tarih Yok",
+    "@noDateLabel": {"description": "Tarihi olmayan yarışma kaydı için etiket."},
+    "unnamedCompetition": "İsimsiz Yarışma",
+    "meterLabel": "m",
+    "rankingResult": "Sıralama",
+    "@rankingResult": {"description": "Yarışma kartında sıralama sonucu etiketi."},
+    "eliminationResult": "Final",
+    "@eliminationResult": {"description": "Yarışma kartında eleme sonucu etiketi."},
+    "@meterLabel": {"description": "Metre için kısaltma, yarışma mesafesi gösteriminde kullanılır."},
+    "@unnamedCompetition": {"description": "Yarışma adı yoksa gösterilen etiket."},
+    "statistics": "İstatistikler",
+    "filterOptions": "Filtreleme Seçenekleri",
+    "removeConnection": "Bağlantıyı Kaldır",
+    "confirmRemoveConnection": "{firstName} {lastName} kişisini silmek istediğinizden emin misiniz?",
+    "@confirmRemoveConnection": {
+        "placeholders": {
+            "firstName": {
+                "type": "String"
+            },
+            "lastName": {
+                "type": "String"
+            }
+        }
+    },
+    "remove": "Kaldır",
+    "clear": "Temizle",
+    "addAthlete": "Sporcu Ekle",
+    "addCoach": "Antrenör Ekle",
+    "athleteId": "Sporcu ID",
+    "athleteProfileId": "Profil ID",
+    "athleteProfileIdHelper": "Sporcunun profil ID'sini giriniz (örn: ay1, mc2)",
+    "athleteProfileIdRequired": "Profil ID zorunlu",
+    "athleteNotFound": "Bu profil ID'ye sahip sporcu bulunamadı.",
+    "coachId": "Antrenör ID",
+    "coachProfileId": "Profil ID",
+    "coachProfileIdHelper": "Antrenörün profil ID'sini giriniz (örn: ak1, bt2)",
+    "coachProfileIdRequired": "Profil ID zorunlu",
+    "coachNotFound": "Bu profil ID'ye sahip antrenör bulunamadı.",
+    "profileId": "Profil ID",
+    "profileIdCopied": "Profil ID panoya kopyalandı!",
+    "athleteIdRequired": "Sporcu ID gerekli",
+    "coachIdRequired": "Antrenör ID gerekli",
+    "athleteIdHelper": "Lütfen sadece sporcu rolündeki kullanıcının ID'sini giriniz",
+    "coachIdHelper": "Antrenörünüzün size verdiği ID'yi giriniz",
+    "onlyCoachesCanAddAthletes": "Sadece antrenörler sporcu ekleyebilir",
+    "onlyAthletesCanAddCoaches": "Sadece sporcular antrenör ekleyebilir",
+    "cannotAddSelf": "Kendinizi sporcu olarak ekleyemezsiniz. Lütfen geçerli bir sporcu ID'si giriniz",
+    "athleteAddedSuccess": "Sporcu başarıyla eklendi",
+    "coachAddedSuccess": "Antrenör başarıyla eklendi",
+    "athleteRequestSent": "Sporcu ekleme isteği gönderildi.",
+    "confirmAddAthleteTitle": "Sporcu eklemesini onayla",
+    "confirmAddAthleteMessage": "Bu sporcuyu eklemek istediğinizden emin misiniz?",
+    "add": "Ekle",
+
+    "@_COMMON": {},
+    "save": "Kaydet",
+    "cancel": "Vazgeç",
+    "close": "Kapat",
+    "imageNotAvailable": "Resim bulunamadı",
+    "error": "Hata: {error}",
+    "@error": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "edit": "Düzenle",
+    "delete": "Sil",
+    
+    "@_TRAINING_SYSTEM": {},
+    "trainingSystem": "Antrenman",
+    "trainingHistory": "Antrenman Kayıtları",
+    "trainingSystemDesc": "Antrenman puanlarınızı kaydedin ve ilerlemenizi takip edin.",
+    "trainingHistoryDesc": "Antrenmanlarınızı görüntüleyin ve analiz edin.",
+    "trainingConfiguration": "Antrenman Oluşturma",
+    "trainingParameters": "Antrenman Parametrelerini Ayarla",
+    "trainingParametersSetup": "Antrenman parametrelerini ayarlayarak yeni bir antrenman başlatın",
+    "startTraining": "ANTRENMANI BAŞLAT",
+    "trainingName": "Antrenman Adı",
+    "trainingNameHint": "Antrenman için özel bir isim verin",
+    
+    "trainingEnvironment": "Antrenman Ortamı",
+    "indoor": "İç Mekan",
+    "outdoor": "Dış Mekan",
+    "bowType": "Yay Tipi",
+    "distance": "Mesafe (metre)",
+    "arrowsPerSeries": "Seri Başına Ok Sayısı",
+    "seriesCount": "Seri Sayısı",
+    "roundCount": "Tur Sayısı",
+    "arrows": "ok",
+    "series": "seri",
+    "rounds": "tur",
+    "meters": "m",
+    
+    "targetFace": "Hedef Kağıdı",
+    "selectTargetFace": "Hedef Kağıdı Seç",
+    "targetFace80cm": "80cm FITA (6 Halka + X)",
+    "targetFace122cm": "122cm FITA (10 Halka + X)",
+    "targetFaceRequired": "Skor antrenmanı için hedef kağıdı seçimi zorunludur",
+    "tapTargetToScore": "Puan girmek için hedef kağıdına dokunun",
+    "targetFaceScoring": "Hedef Kağıdı Puanlama",
+    "tapToEnterScore": "Puan girmek için dokunun",
+    "arrowHole": "Ok Deliği",
+    "closeTargetView": "Kapat",
+    "arrowCount": "Ok {current}/{total}",
+    "seriesComplete": "Seri Tamamlandı",
+    "nextSeries": "Sonraki Seri",
+    "finishTraining": "Antrenmanı Bitir",
+    "continueTraining": "Devam Et",
+    
+    "training": "Antrenman",
+    "currentSeries": "Mevcut Seri",
+    "total": "Toplam",
+    "noSeriesYet": "Henüz kaydedilmiş seri yok",
+    "seriesCompleteMessage": "Bu seri için {count} ok tamamlandı. \"Seriyi Tamamla\" butonuna basarak bir sonraki seriye geçebilirsiniz.",
+    "@seriesCompleteMessage": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "undoLast": "Geri Al",
+    "reset": "Sıfırla",
+    "completeSeries": "Seriyi Tamamla",
+    "seriesNumber": "Seri {number}",
+    "@seriesNumber": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "trainingSessionInfo": "Serileri oluşturduktan sonra seri kartlarına dokunarak geçmiş serileri düzenleyebilirsiniz.",
+    "@trainingSessionInfo": {"description": "Antrenman ekranında hiç seri yokken kullanıcıya gösterilecek bilgilendirme mesajı."},
+    "trainingSessionName": "Antrenman Adı",
+
+    "@_TRAINING_HISTORY": {},
+    "trainingStatistics": "Antrenman İstatistikleri",
+    "average": "Ortalama",
+    "totalArrows": "Toplam Ok",
+    "totalSessions": "Antrenman",
+    "bestTraining": "En İyi Antrenman:",
+    "deleteTraining": "Antrenmanı Sil",
+    "deleteTrainingConfirm": "Bu antrenmanı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+    "trainingDeleted": "Antrenman başarıyla silindi.",
+    "userNotFound": "Kullanıcı oturumu bulunamadı. Lütfen tekrar giriş yapın.",
+    "filter": "Filtre: {filterName}",
+    "@filter": {
+        "placeholders": {
+            "filterName": {
+                "type": "String"
+            }
+        }
+    },
+    "allTrainings": "Tüm Antrenmanlar",
+    "indoorOnly": "İç Mekan",
+    "outdoorOnly": "Dış Mekan",
+    "dateRange": "Tarih Aralığına Göre",
+    "noTrainingsYet": "Henüz kaydedilmiş antrenman bulunmuyor",
+    "arrowsAndSeries": "{arrowCount} ok, {seriesCount} seri",
+    "@arrowsAndSeries": {
+        "placeholders": {
+            "arrowCount": {
+                "type": "int"
+            },
+            "seriesCount": {
+                "type": "int"
+            }
+        }
+    },
+    "averageScore": "Ort: {score}",
+    "@averageScore": {
+        "placeholders": {
+            "score": {
+                "type": "String"
+            }
+        }
+    },
+    "performanceGraph": "Performans Grafiği",
+    "lastTrainings": "Son {count} antrenman",
+    "seriesTitle": "Seriler",  
+    "noSeriesData": "Seri verisi bulunamadı",
+    "@lastTrainings": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+
+    "@_TRAINING_CONFIG": {},
+    "trainingConfigDescription": "Antrenman parametrelerini ayarlayarak yeni bir antrenman başlatın",
+    "configureTrainingParameters": "Antrenman Parametreleri",
+    "configTrainingDesc": "Antrenman parametrelerini ayarlayarak yeni bir antrenman başlatın.",
+    "trainingDescription": "Antrenman parametrelerini ayarlayarak yeni bir antrenman başlatın.",
+    
+    "@_TRAINING_DETAILS": {},
+    "trainingDetails": "Antrenman Detayları",
+    "date": "Tarih:",
+    "bowTypeLabel": "Yay Tipi:",
+    "distanceLabel": "Mesafe:",
+    "environment": "Ortam:",
+    "indoorEnv": "İç Mekan",
+    "outdoorEnv": "Dış Mekan",
+    "totalArrowsLabel": "Toplam Ok:",
+    "totalScoreLabel": "Toplam Puan:",
+    "averageLabel": "Ortalama",
+    "series": "Seriler",
+    "seriesNumber": "Seri {number}",
+    "arrowsLabel": "Oklar:",
+    "totalLabel": "Toplam:",
+    "noTrainingOnDate": "Bu tarihte antrenman bulunamadı.",
+    "noTrainingInRange": "Seçilen tarih aralığında antrenman bulunamadı.",
+    "clearDateFilter": "Tarih Filtresini Kaldır",
+    "filterByDate": "Tarihe Göre Filtrele",
+    "debug": "Hata Ayıklama",
+    "refresh": "Yenile",
+    
+    "@_ATHLETE_STATISTICS": {},
+    "athleteStatistics": "Sporcu İstatistikleri",
+    "overallPerformance": "Genel Performans",
+    "recentProgress": "Son İlerleme",
+    "trainingFrequency": "Antrenman Sıklığı",
+    "scoreDistribution": "Puan Dağılımı",
+    "highestScore": "En Yüksek Puan",
+    "lowestScore": "En Düşük Puan",
+    "averagePerformance": "Ortalama Performans",
+    "totalTrainingHours": "Toplam Antrenman Saati",
+    "weeklyTrainingHours": "Haftalık Antrenman Saati",
+    "monthlyTrainingHours": "Aylık Antrenman Saati",
+    "consistencyIndex": "Tutarlılık İndeksi",
+    "performanceByDistance": "Mesafeye Göre Performans",
+    "performanceByEnvironment": "Ortama Göre Performans",
+    "improvementRate": "İyileştirme Oranı",
+    "weeklyAverage": "Haftalık Ortalama",
+    "monthlyAverage": "Aylık Ortalama",
+    "compareToLastMonth": "Geçen Ay ile Karşılaştır",
+    "compareToLastWeek": "Geçen Hafta ile Karşılaştır",
+    "noStatisticsAvailable": "Bu sporcu için henüz istatistik bulunmuyor",
+    "bestArrow": "En İyi Ok",
+    "bestSeries": "En İyi Seri",
+    
+    "@_STATISTICS_FILTERS": {},
+    "filters": "Filtreler",
+    "clearFilters": "Filtreleri Temizle",
+    "allEnvironments": "Tüm Ortamlar",
+    "allTime": "Tüm Zamanlar",
+    "lastDay": "Son 1 Gün",
+    "lastWeek": "Son 1 Hafta",
+    "lastTwoWeeks": "Son 2 Hafta",
+    "customDateRange": "Özel Tarih Aralığı",
+    "changeDateRange": "Tarih Aralığını Değiştir",
+    "dateRange": "Tarih Aralığı",
+    "activeFilters": "Aktif Filtreler",
+    "noActiveFilters": "Aktif Filtre Yok",
+    
+    "@_TRAINING_SCREEN": {},
+    "trainingEnvironmentTitle": "Antrenman - {environment}",
+    "@trainingEnvironmentTitle": {
+        "placeholders": {
+            "environment": {
+                "type": "String"
+            }
+        }
+    },
+    "distanceLabel": "Mesafe: {distance}",
+    "@distanceLabel": {
+        "placeholders": {
+            "distance": {
+                "type": "String"
+            }
+        }
+    },
+    "bowTypeInfo": "Yay tipi: {type}",
+    "@bowTypeInfo": {
+        "placeholders": {
+            "type": {
+                "type": "String"
+            }
+        }
+    },
+    "seriesCount": "Seri {current}/{total}",
+    "@seriesCount": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "totalScore": "Toplam: {score}",
+    "@totalScore": {
+        "placeholders": {
+            "score": {
+                "type": "int"
+            }
+        }
+    },
+    "currentSeries": "Mevcut Seri ({current}/{total})",
+    "@currentSeries": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "totalSeriesScore": "Toplam: {score}",
+    "@totalSeriesScore": {
+        "placeholders": {
+            "score": {
+                "type": "int"
+            }
+        }
+    },
+    "undoButton": "Geri Al",
+    "resetButton": "Sıfırla",
+    "completeSeriesButton": "Seriyi Tamamla",
+    "warning": "Uyarı",
+    "trainingNotSavedMessage": "Antrenman kaydedilmedi. Kaydetmek istiyor musunuz?",
+    "exitWithoutSaving": "Kaydetmeden Çık",
+    "cancelButton": "İptal",
+    "saveButton": "Kaydet",
+    "trainingSavedMessage": "Antrenman kaydedildi.",
+    "finishTrainingTitle": "Antrenmanı Bitir",
+    "finishTrainingTotalScore": "Toplam Puan",
+    "finishTrainingTotalArrows": "Toplam Ok",
+    "finishTrainingAveragePerArrow": "Ortalama",
+    "finishTrainingContinue": "Antrenmana Devam Et",
+    "finishTrainingSaveAndFinish": "Kaydet ve Bitir",
+    "tapForOptions": "Daha fazla seçenek için karta dokunun",
+    "@tapForOptions": {
+      "description": "Sporcu kartındaki ikonda gösterilen, kullanıcıya daha fazla seçenek için karta dokunması gerektiğini belirten tooltip."
+    },
+    "createCompetitionTitle": "Yeni Yarışma Oluştur",
+    "competitionNameLabel": "Yarışma Adı",
+    "competitionDescriptionLabel": "Açıklama",
+    "competitionDateLabel": "Tarih",
+    "competitionDateHint": "GG/AA/YYYY",
+    "competitionAgeGroupsLabel": "Yaş Grupları",
+    "competitionDistancesLabel": "Mesafeler",
+    "competitionVenueLabel": "Mekan",
+    "competitionVenueIndoor": "Salon (Indoor)",
+    "competitionVenueOutdoor": "Açık Alan (Outdoor)",
+    "competitionCustomDistance": "Özel Mesafe (metre)",
+    "competitionSaveButton": "Kaydet",
+    "competitionAgeGroup1": "9-10 Yaş",
+    "competitionAgeGroup2": "11-12 Yaş",
+    "competitionAgeGroup3": "13-14 Yaş",
+    "competitionAgeGroup4": "U18 (15-16-17)",
+    "competitionAgeGroup5": "U21 (18-19-20)",
+    "competitionAgeGroup6": "Büyükler",
+    "competitionDistance18": "18 m",
+    "competitionDistance20": "20 m",
+    "competitionDistance30": "30 m",
+    "competitionDistance50": "50 m",
+    "competitionDistance60": "60 m",
+    "competitionDistance70": "70 m",
+    "competitionDistanceCustom": "Özel",
+    "myCompetitionsTitle": "Yarışmalarım",
+    "myCompetitionsDesc": "Katıldığınız yarışmalar burada listelenir.",
+    "eliminationQuestion": "Eleme olacak mı?",
+    "eliminationYes": "Evet",
+    "eliminationNo": "Hayır",
+    "registrationDatesLabel": "Kayıt Tarihleri",
+    "registrationStartLabel": "Başlangıç",
+    "registrationEndLabel": "Bitiş",
+    "notes": "Notlar",
+    "trainingType": "Antrenman Türü",
+    "timerTitle": "Zamanlayıcı",
+    "prepTime": "Hazırlanma Süresi (sn)",
+    "prepTimeHint": "Hazırlık süresini girin",
+    "seriesTime": "Seri Süresi (sn)",
+    "seriesTimeHint": "Seri süresini girin",
+    "start": "Başlat",
+    "reset": "Sıfırla",
+    "timerReady": "Zamanlayıcı hazır",
+    "prepPhase": "Hazırlık Aşaması",
+    "seriesPhase": "Seri Aşaması",
+    "warningPhase": "Uyarı Aşaması",
+    "finished": "Bitti",
+    "touchToStart": "Başlatmak için dokunun",
+    
+    "@_SETTINGS_SCREEN": {},
+    "settings": "Ayarlar",
+    "languageSettings": "Dil Ayarları",
+    "themeSettings": "Tema Ayarları",
+    "timerSettings": "Zamanlayıcı Ayarları",
+    "lightTheme": "Açık Tema",
+    "darkTheme": "Karanlık Tema",
+    "keepAboveLockscreen": "Kilit ekranının üzerinde tut",
+    "shootingTime": "Atış Süresi",
+    "warningTime": "Uyarı Süresi",
+    "seconds": "saniye",
+    "sound": "Ses",
+    "vibrate": "Titreşim",
+    "testTimer": "Zamanlayıcıyı Test Et",
+    "competitionOptionsTitle": "Yarışma Seçenekleri",
+    "deleteCompetitionTitle": "Yarışma Kaydını Sil",
+    "deleteCompetitionConfirm": "Bu yarışma kaydını silmek istediğinize emin misiniz?",
+    "otherLabel": "Diğer",
+    "cancelButtonLabel": "İptal",
+    "okButtonLabel": "Tamam",
+    "editButtonLabel": "Düzenle",
+    "deleteButtonLabel": "Sil",
+    "saveButtonLabel": "Kaydet",
+    "errorPrefix": "Hata: ",
+    "noDateAvailable": "Tarih Yok",
+    "unnamedCompetitionPlaceholder": "isimsiz yarışma",
+    "addCompetitionTitle": "Yarışma Ekle",
+    "editCompetitionTitle": "Yarışma Düzenle",
+    "competitionNameOptionalLabel": "Yarışma Adı",
+    "ageGroupLabel": "Yaş Grubu",
+    "ageGroupsNotFound": "Yaş grubu bulunamadı.",
+    "environmentLabel": "Ortam",
+    "distanceInMetersLabel": "Mesafe (metre)",
+    "customDistancePrefix": "Özel mesafe: ",
+    "customDistanceDialogTitle": "Özel Mesafe Girin",
+    "distanceInMetersHint": "Mesafe (m)",
+    "bowTypeRecurve": "Klasik",
+    "bowTypeCompound": "Makaralı",
+    "bowTypeBarebow": "Barebow",
+    "selectBowTypeValidation": "Yay tipi seçiniz",
+    "maxScoreLabel": "Maksimum Puan",
+    "customMaxScorePrefix": "Özel maksimum puan: ",
+    "customMaxScoreDialogTitle": "Özel Maksimum Puan Girin",
+    "maxScoreHint": "Maksimum puan",
+    "qualificationRankLabel": "Sıralama (Derece)",
+    "finalRankLabel": "Eleme Sonucu (Derece)",
+    "otherCustomFinalRankLabel": "Diğer (Özel Eleme Sonucu)",
+    "saveCompetitionButton": "Yarışmayı Kaydet",
+    "saveChangesButtonLabel": "Değişiklikleri Kaydet",
+    "enterTotalScoreValidation": "Toplam skor giriniz",
+    "enterValidNumberValidation": "Geçerli bir sayı giriniz",
+    "totalScoreExceedsMaxValidation": "Toplam skor, maksimum puandan büyük olamaz!",
+    "userSessionNotFound": "Kullanıcı oturumu bulunamadı.",
+    "competitionUpdatedLocallyOffline": "Yarışma internet yokken yerel olarak güncellendi.",
+    "competitionUpdateSuccess": "Yarışma başarıyla güncellendi.",
+    "confirmExitTitle": "Değişiklikleri kaydetmeden çık?",
+    "confirmExitMessage": "Yaptığınız değişiklikler kaydedilmeyecek.",
+    "exitButtonLabel": "Çık",
+    "addCompetitionFAB": "Yarışma Ekle",
+    "competitionSyncSuccess": "Yarışmalar başarıyla senkronize edildi.",
+    "competitionUserNotFound": "Kullanıcı bulunamadı.",
+    "deleteIdNull": "Silinecek ID bulunamadı.",
+    "deleteFailedLocal": "Yerel silme başarısız.",
+    "competitionDeleted": "Yarışma silindi.",
+    "deleteFailedGeneral": "Silme başarısız: {error}",
+    "@deleteFailedGeneral": { "description": "General delete failure message with an error placeholder.", "placeholders": { "error": { "type": "String", "example": "Network issue" } } },
+    "deleteCompetitionRecordTitle": "Yarışma Kaydını Sil",
+    "confirmDeleteCompetitionRecordMessage": "Bu yarışma kaydını silmek istediğinize emin misiniz?",
+    "deleteCompetitionsTitle": "Yarışmaları Sil",
+    "confirmDeleteSelectedCompetitionsMessage": "{count} adet yarışma kaydını silmek istediğinize emin misiniz?",
+    "@confirmDeleteSelectedCompetitionsMessage": { "description": "Confirmation for deleting multiple competitions.", "placeholders": { "count": { "type": "int", "example": "5" } } },
+    "selectedCompetitionsDeleted": "{count} yarışma silindi.",
+    "@selectedCompetitionsDeleted": { "description": "Notification after deleting multiple competitions.", "placeholders": { "count": { "type": "int", "example": "5" } } },
+    "competitionGenericError": "Bir hata oluştu.",
+    "noCompetitionsForFilter": "Filtreye uygun yarışma kaydı yok.",
+    "scorePrefix": "Skor: ",
+    "rankPrefix": "Sıralama: ",
+    "eliminationPrefix": "Eleme: ",
+    "ageGroupDisplayPrefix": "Yaş Grubu: ",
+    "competitionNameRequired": "Yarışma adı zorunludur",
+    "notificationsTitle": "Bildirimler",
+    "noNotifications": "Bildirim yok.",
+    "unknownUser": "Bilinmeyen kullanıcı",
+    "pendingRequestDetail": "Onay bekleyen bağlantı isteğiniz var.",
+    "reject": "Reddet",
+    "accept": "Onayla",
+    "technique": "Teknik",
+    "about": "Hakkında",
+    "aboutDescription": "ArcheryOZS, sporcular ve antrenörler için modern bir okçuluk antrenman ve yarışma yönetim uygulamasıdır.",
+    "developer": "Geliştirici: OZS Takımı",
+    "version": "Sürüm: {version}",
+    "@version": {"description": "Hakkında bölümünde uygulama sürümü.", "placeholders": {"version": {"type": "String", "example": "1.0.0"}}},
+    "signOutConfirm": "Çıkış yapmak istediğinize emin misiniz?",
+    "trainingDateTime": "Antrenman Tarihi & Saati",
+    "trainingDateTimeHint": "Antrenman için tarih ve saat seçin",
+    "today": "Bugün",
+    "yesterday": "Dün",
+    "updateRequired": "Güncelleme Gerekli",
+    "pleaseUpdateApp": "Uygulamanın yeni bir sürümü mevcut. Devam etmek için lütfen güncelleyin.",
+    "updateNow": "Şimdi Güncelle",
+    "currentVersion": "Mevcut sürüm: {version}",
+    "minimumRequiredVersion": "Gerekli minimum sürüm: {version}",
+    "emailVerificationRequiredTitle": "Email Doğrulama Gerekli",
+    "emailVerificationRequiredContent": "Kayıt işleminiz başarılı! Lütfen email adresinize gönderilen doğrulama linkine tıklayarak hesabınızı doğrulayın. Mail kutunuzu kontrol ediniz. Doğrulama işleminden sonra giriş yapabilirsiniz.",
+    "emailVerificationRequiredOk": "Tamam",
+    "emailVerificationLoginContent": "Lütfen email adresinize gönderilen doğrulama linkine tıklayarak hesabınızı doğrulayın. Doğrulama yapmadan giriş yapamazsınız.",
+    "passwordSettings": "Şifre Ayarları",
+    "setPassword": "Şifre Belirle / Değiştir",
+    "setPasswordTitle": "Şifre Belirle veya Değiştir",
+    "setPasswordNew": "Yeni Şifre",
+    "setPasswordConfirm": "Şifreyi Onayla",
+    "setPasswordSave": "Şifreyi Kaydet",
+    "setPasswordSuccess": "Şifre başarıyla güncellendi!",
+    "setPasswordError": "Şifre güncellenemedi. Lütfen tekrar deneyin.",
+    "setPasswordMismatch": "Şifreler eşleşmiyor!",
+    "confirmPasswordChangeTitle": "Şifre Değişikliğini Onayla",
+    "confirmPasswordChangeContent": "Şifrenizi değiştirmek istediğinize emin misiniz?",
+    "verificationEmailSent": "E-posta adresinize bir doğrulama maili gönderildi.",
+    "scoreTraining": "Skor Antrenmanı",
+    "targetFaceScoreTraining": "Hedef Kağıdı Skor Antrenmanı",
+    "techniqueTraining": "Teknik Antrenman",
+    "hasTeamDegreeLabel": "Takım derecesi var mı?",
+    "selectTeamDegreeYes": "Evet",
+    "selectTeamDegreeNo": "Hayır",
+    "teamTypeLabel": "Takım Türü",
+    "selectTeamTypeValidation": "Lütfen bir takım türü seçin.",
+    "teamTypesNotFound": "Takım türü bulunamadı.",
+    "teamResultLabel": "Takım Sonucu",
+    "@teamResultLabel": {"description": "Yarışma ekle ekranında takım sonucu picker etiketi."}
+}

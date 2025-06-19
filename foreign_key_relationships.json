@@ -1,0 +1,1937 @@
+[
+    {
+      "Source": "app_subscription_payments.subscription_id",
+      "Target": "app_subscriptions.subscription_id",
+      "Constraint Name": "fk_subscription"
+    },
+    {
+      "Source": "app_subscription_payments.subscription_id",
+      "Target": "app_subscriptions.subscription_id",
+      "Constraint Name": "app_subscription_payments_subscription_id_fkey"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "athlete_coach_athlete_id_fkey"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "athlete_coach.coach_id",
+      "Target": "coaches.coach_id",
+      "Constraint Name": "fk_coach"
+    },
+    {
+      "Source": "athlete_coach.coach_id",
+      "Target": "coaches.coach_id",
+      "Constraint Name": "fk_coach"
+    },
+    {
+      "Source": "athlete_coach.coach_id",
+      "Target": "coaches.coach_id",
+      "Constraint Name": "fk_coach"
+    },
+    {
+      "Source": "athlete_coach.coach_id",
+      "Target": "coaches.coach_id",
+      "Constraint Name": "athlete_coach_coach_id_fkey"
+    },
+    {
+      "Source": "athlete_coach.coach_id",
+      "Target": "coaches.coach_id",
+      "Constraint Name": "fk_coach"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "athletes_club_id_fkey"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "athletes.parent_id",
+      "Target": "parents.parent_id",
+      "Constraint Name": "fk_parent"
+    },
+    {
+      "Source": "athletes.parent_id",
+      "Target": "parents.parent_id",
+      "Constraint Name": "athletes_parent_id_fkey"
+    },
+    {
+      "Source": "athletes.profile_id",
+      "Target": "profiles.id",
+      "Constraint Name": "athletes_profile_id_fkey"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "club_coach_club_id_fkey"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_coach.coach_id",
+      "Target": "coaches.coach_id",
+      "Constraint Name": "fk_coach"
+    },
+    {
+      "Source": "club_coach.coach_id",
+      "Target": "coaches.coach_id",
+      "Constraint Name": "fk_coach"
+    },
+    {
+      "Source": "club_coach.coach_id",
+      "Target": "coaches.coach_id",
+      "Constraint Name": "fk_coach"
+    },
+    {
+      "Source": "club_coach.coach_id",
+      "Target": "coaches.coach_id",
+      "Constraint Name": "fk_coach"
+    },
+    {
+      "Source": "club_coach.coach_id",
+      "Target": "coaches.coach_id",
+      "Constraint Name": "club_coach_coach_id_fkey"
+    },
+    {
+      "Source": "club_membership_payments.membership_id",
+      "Target": "club_memberships.membership_id",
+      "Constraint Name": "fk_membership"
+    },
+    {
+      "Source": "club_membership_payments.membership_id",
+      "Target": "club_memberships.membership_id",
+      "Constraint Name": "club_membership_payments_membership_id_fkey"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "club_memberships_athlete_id_fkey"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "club_memberships_club_id_fkey"
+    },
+    {
+      "Source": "club_memberships.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "club_staff_club_id_fkey"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "club_staff.club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_club"
+    },
+    {
+      "Source": "coaches.coach_id",
+      "Target": "profiles.id",
+      "Constraint Name": "coaches_coach_id_fkey"
+    },
+    {
+      "Source": "coaches.profile_id",
+      "Target": "profiles.id",
+      "Constraint Name": "coaches_profile_id_fkey"
+    },
+    {
+      "Source": "competition_records.age_group_id",
+      "Target": "age_groups.age_group_id",
+      "Constraint Name": "fk_age_group"
+    },
+    {
+      "Source": "competition_records.age_group_id",
+      "Target": "age_groups.age_group_id",
+      "Constraint Name": "fk_age_group"
+    },
+    {
+      "Source": "competition_records.age_group_id",
+      "Target": "age_groups.age_group_id",
+      "Constraint Name": "fk_age_group"
+    },
+    {
+      "Source": "competition_records.age_group_id",
+      "Target": "age_groups.age_group_id",
+      "Constraint Name": "competition_records_age_group_id_fkey"
+    },
+    {
+      "Source": "competition_records.age_group_id",
+      "Target": "age_groups.age_group_id",
+      "Constraint Name": "fk_age_group"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "competition_records_athlete_id_fkey"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "competition_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "group_members.group_id",
+      "Target": "groups.group_id",
+      "Constraint Name": "group_members_group_id_fkey"
+    },
+    {
+      "Source": "group_members.group_id",
+      "Target": "groups.group_id",
+      "Constraint Name": "fk_group"
+    },
+    {
+      "Source": "group_members.group_id",
+      "Target": "groups.group_id",
+      "Constraint Name": "fk_group"
+    },
+    {
+      "Source": "group_members.group_id",
+      "Target": "groups.group_id",
+      "Constraint Name": "fk_group"
+    },
+    {
+      "Source": "group_members.group_id",
+      "Target": "groups.group_id",
+      "Constraint Name": "fk_group"
+    },
+    {
+      "Source": "groups.created_by",
+      "Target": "admins.admin_id",
+      "Constraint Name": "fk_created_by"
+    },
+    {
+      "Source": "groups.created_by",
+      "Target": "admins.admin_id",
+      "Constraint Name": "fk_created_by"
+    },
+    {
+      "Source": "groups.created_by",
+      "Target": "admins.admin_id",
+      "Constraint Name": "fk_created_by"
+    },
+    {
+      "Source": "messages.group_id",
+      "Target": "groups.group_id",
+      "Constraint Name": "fk_group"
+    },
+    {
+      "Source": "messages.group_id",
+      "Target": "groups.group_id",
+      "Constraint Name": "fk_group"
+    },
+    {
+      "Source": "messages.group_id",
+      "Target": "groups.group_id",
+      "Constraint Name": "fk_group"
+    },
+    {
+      "Source": "messages.group_id",
+      "Target": "groups.group_id",
+      "Constraint Name": "fk_group"
+    },
+    {
+      "Source": "messages.group_id",
+      "Target": "groups.group_id",
+      "Constraint Name": "messages_group_id_fkey"
+    },
+    {
+      "Source": "news.created_by",
+      "Target": "admins.admin_id",
+      "Constraint Name": "news_created_by_fkey"
+    },
+    {
+      "Source": "news.created_by",
+      "Target": "admins.admin_id",
+      "Constraint Name": "fk_created_by"
+    },
+    {
+      "Source": "news.created_by",
+      "Target": "admins.admin_id",
+      "Constraint Name": "fk_created_by"
+    },
+    {
+      "Source": "news.created_by",
+      "Target": "admins.admin_id",
+      "Constraint Name": "fk_created_by"
+    },
+    {
+      "Source": "news_target_audience.news_id",
+      "Target": "news.news_id",
+      "Constraint Name": "fk_news"
+    },
+    {
+      "Source": "news_target_audience.news_id",
+      "Target": "news.news_id",
+      "Constraint Name": "news_target_audience_news_id_fkey"
+    },
+    {
+      "Source": "organized_competition_participants.age_group_id",
+      "Target": "age_groups.age_group_id",
+      "Constraint Name": "organized_competition_participants_age_group_id_fkey"
+    },
+    {
+      "Source": "organized_competition_participants.age_group_id",
+      "Target": "age_groups.age_group_id",
+      "Constraint Name": "fk_age_group"
+    },
+    {
+      "Source": "organized_competition_participants.age_group_id",
+      "Target": "age_groups.age_group_id",
+      "Constraint Name": "fk_age_group"
+    },
+    {
+      "Source": "organized_competition_participants.age_group_id",
+      "Target": "age_groups.age_group_id",
+      "Constraint Name": "fk_age_group"
+    },
+    {
+      "Source": "organized_competition_participants.age_group_id",
+      "Target": "age_groups.age_group_id",
+      "Constraint Name": "fk_age_group"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "organized_competition_participants_athlete_id_fkey"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_competition_participants.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_competition_participants.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_competition_participants.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_competition_participants.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_competition_participants.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_competition_participants.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "organized_competition_participant_organized_competition_id_fkey"
+    },
+    {
+      "Source": "organized_competition_participants.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_competition_participants.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_competition_participants.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_competition_participants.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_competitions.created_by",
+      "Target": "admins.admin_id",
+      "Constraint Name": "fk_created_by"
+    },
+    {
+      "Source": "organized_competitions.created_by",
+      "Target": "admins.admin_id",
+      "Constraint Name": "fk_created_by"
+    },
+    {
+      "Source": "organized_competitions.created_by",
+      "Target": "admins.admin_id",
+      "Constraint Name": "fk_created_by"
+    },
+    {
+      "Source": "organized_competitions.organizing_club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "organized_competitions_organizing_club_id_fkey"
+    },
+    {
+      "Source": "organized_competitions.organizing_club_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_organizing_club"
+    },
+    {
+      "Source": "organized_elimination_matches.athlete1_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "organized_elimination_matches_athlete1_id_fkey"
+    },
+    {
+      "Source": "organized_elimination_matches.athlete1_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete1"
+    },
+    {
+      "Source": "organized_elimination_matches.athlete2_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "organized_elimination_matches_athlete2_id_fkey"
+    },
+    {
+      "Source": "organized_elimination_matches.athlete2_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete2"
+    },
+    {
+      "Source": "organized_elimination_matches.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_elimination_matches.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_elimination_matches.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_elimination_matches.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_elimination_matches.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_elimination_matches.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_elimination_matches.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_elimination_matches.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_elimination_matches.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_elimination_matches.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "organized_elimination_matches_organized_competition_id_fkey"
+    },
+    {
+      "Source": "organized_elimination_matches.team1_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_team1"
+    },
+    {
+      "Source": "organized_elimination_matches.team1_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "organized_elimination_matches_team1_id_fkey"
+    },
+    {
+      "Source": "organized_elimination_matches.team2_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_team2"
+    },
+    {
+      "Source": "organized_elimination_matches.team2_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "organized_elimination_matches_team2_id_fkey"
+    },
+    {
+      "Source": "organized_elimination_matches.winner_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "organized_elimination_matches_winner_id_fkey"
+    },
+    {
+      "Source": "organized_elimination_matches.winner_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_winner"
+    },
+    {
+      "Source": "organized_elimination_matches.winner_team_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "organized_elimination_matches_winner_team_id_fkey"
+    },
+    {
+      "Source": "organized_elimination_matches.winner_team_id",
+      "Target": "clubs.club_id",
+      "Constraint Name": "fk_winner_team"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "organized_scores_athlete_id_fkey"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "organized_scores.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_scores.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_scores.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_scores.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "organized_scores_organized_competition_id_fkey"
+    },
+    {
+      "Source": "organized_scores.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_scores.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_scores.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_scores.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_scores.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "organized_scores.organized_competition_id",
+      "Target": "organized_competitions.organized_competition_id",
+      "Constraint Name": "fk_organized_competition"
+    },
+    {
+      "Source": "profiles.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "profiles_athlete_id_fkey"
+    },
+    {
+      "Source": "profiles.coach_id",
+      "Target": "coaches.coach_id",
+      "Constraint Name": "profiles_coach_id_fkey"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "training_records_athlete_id_fkey"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    },
+    {
+      "Source": "training_records.athlete_id",
+      "Target": "athletes.athlete_id",
+      "Constraint Name": "fk_athlete"
+    }
+  ]

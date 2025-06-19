@@ -1,0 +1,3 @@
+everytime you add a string it must be connected to |10n . It shouldnt be hardcoded letter
+
+uygulamaya yeni bir özellik getirdiği zaman web versiyonunda sqlite olmayacak sadece supabase üzerinden çalışacak.eğer isweb doğru ise
