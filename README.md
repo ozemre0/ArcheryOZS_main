@@ -25,6 +25,8 @@ ArcheryOZS aims to make archery training more **efficient**, **systematic**, and
 - ☁️ Cloud-based data sync (Supabase)  
 
 ---
+![Image](https://github.com/user-attachments/assets/8eb704c7-cb10-4d82-9820-7da563fa5939)
+
 
 ## 🛠️ Technical Details
 
