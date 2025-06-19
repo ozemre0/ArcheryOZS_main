@@ -22,7 +22,7 @@ ArcheryOZS aims to make archery training more **efficient**, **systematic**, and
 - 🌐 Multi-language support (fully localized with `l10n`)  
 - 🎨 Modern and responsive UI (dark/light theme)  
 - 🔐 Secure login & authentication  
-- ☁️ Cloud-based data sync (via Supabase or Firebase)  
+- ☁️ Cloud-based data sync (Supabase)  
 
 ---
 
@@ -39,12 +39,19 @@ ArcheryOZS aims to make archery training more **efficient**, **systematic**, and
 
 ## 🧱 Project Architecture
 
+- lib/
+├── l10n/                # Localization files
+├── models/              # Data models
+├── providers/           # State management
+├── screens/             # All UI screens
+├── services/            # API and data services
+├── widgets/             # Reusable widgets
+└── main.dart            # Entry point
 - Clean Architecture principles  
 - Layered structure (`presentation`, `domain`, `data`)  
 - Service and data layers are clearly separated  
 - All strings handled via `l10n` (no hardcoded UI text)  
-- Application starts from `main.dart`  
-
+- Application starts from `main.dart`
 ---
 
 ## 🚀 Installation & Run
