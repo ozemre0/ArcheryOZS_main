@@ -28,7 +28,13 @@ ArcheryOZS aims to make archery training more **efficient**, **systematic**, and
 ## Uygulama Ekran Görüntüsü
 
 <img src="https://github.com/user-attachments/assets/8eb704c7-cb10-4d82-9820-7da563fa5939" alt="Image" width="300"/>
-
+<img src="https://github.com/user-attachments/assets/b9d95904-e3c9-4179-9a32-30bc9138f78c" alt="Image" width="300"/>
+<img src="https://github.com/user-attachments/assets/ef804743-6f31-44e5-9929-fa05b1c09a0e" alt="Image" width="300"/>
+<img src="https://github.com/user-attachments/assets/a3fe590a-4207-4ea7-8513-a1d0e90fc25f" alt="Image" width="300"/>
+<img src="https://github.com/user-attachments/assets/ab3eb46d-8cfc-41f7-9307-3db4d687bcb4" alt="Image" width="300"/>
+<img src="https://github.com/user-attachments/assets/55016d57-957a-48fa-beb7-08c03cb91503" alt="Image" width="300"/>
+<img src="https://github.com/user-attachments/assets/bbb18a14-a5d0-4685-8cfa-546a7abeed0c" alt="Image" width="300"/>
+<img src="https://github.com/user-attachments/assets/ce3a8a47-13b3-4c39-8447-8550e85b56b5" alt="Image" width="300"/>
 
 ## 🛠️ Technical Details
 
