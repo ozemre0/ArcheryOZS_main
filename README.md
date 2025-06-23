@@ -39,7 +39,7 @@ ArcheryOZS aims to make archery training more **efficient**, **systematic**, and
 ## 🛠️ Technical Details
 
 - **Platform:** Flutter (cross-platform)  
-- **Backend:** Supabase (or Firebase, optionally)  
+- **Backend:** Supabase 
 - **Database:** PostgreSQL (via Supabase)  
 - **State Management:** Riverpod / Provider  
 - **Localization:** `l10n` (no hardcoded strings)  
